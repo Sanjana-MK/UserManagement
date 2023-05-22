@@ -14,3 +14,5 @@ Username='Admin'
 Password = 123
 
 
+The query for create table :
+CREATE Table Users (Id varchar(100), Name varchar(100), Email varchar(100), Phone number, Location varchar(100))
