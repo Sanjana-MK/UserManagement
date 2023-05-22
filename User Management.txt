@@ -6,7 +6,9 @@ Each user has the following fields:
 4. Phone
 5. Location
 
-
+The  server name and database name are as follows in the connection string of appsettings.json file:
+server name: SANJANA
+db name: MyUserDB
 
 Admin credentials:
 
@@ -14,3 +16,5 @@ Username='Admin'
 Password = 123
 
 
+The query for create table :
+CREATE Table Users (Id varchar(100), Name varchar(100), Email varchar(100), Phone number, Location varchar(100))
