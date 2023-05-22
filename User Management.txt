@@ -6,7 +6,9 @@ Each user has the following fields:
 4. Phone
 5. Location
 
-
+The  server name and database name are as follows in the connection string of appsettings.json file:
+server name: SANJANA
+db name: MyUserDB
 
 Admin credentials:
 
