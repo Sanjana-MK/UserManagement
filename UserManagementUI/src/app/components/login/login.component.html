@@ -1,0 +1,5 @@
+<h1> LOGIN PAGE</h1>
+<input type="text" id="uname"  id="uname" [(ngModel)]="uname"/>
+<input type="password" id="pass"  id="pass" [(ngModel)]="pass"/>
+<input type="submit" (click)="authorizeUser();"/>
+<p *ngIf="uname!='' && pass!='' && submit && !authorized"> Sorry! You are not allowed to login</p>

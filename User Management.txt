@@ -1,0 +1,16 @@
+The User Management Module has a login page and once logged in as Admin, we can view and add/delete/update users.
+Each user has the following fields:
+1. ID (Can only be added/edited from tables)
+2. Name
+3. Email
+4. Phone
+5. Location
+
+
+
+Admin credentials:
+
+Username='Admin' 
+Password = 123
+
+

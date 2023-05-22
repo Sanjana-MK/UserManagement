@@ -1,0 +1,63 @@
+<div class="container">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Phone
+                </th>
+                <th>
+                    Location
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let list of UsersList; let i = index">
+                
+                <td>
+                    {{i+1}}
+                </td>
+                <td>
+                  {{list.id}}
+
+                </td>
+                <td>
+                    {{list.name}}
+
+                </td>
+                <td>
+                    {{list.email}}
+                </td>
+                <td>
+                    {{list.phone}}
+
+                </td>
+                <td>
+                    {{list.location}}
+
+                </td>
+                <td>
+                    <a [routerLink]="['/users','edit',list.id]">View User</a>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <h3>
+        Displaying {{count}} Users 
+    </h3>
+
+</div>
